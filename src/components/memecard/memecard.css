@@ -1,0 +1,140 @@
+.meme-template{
+    position: relative;
+    color: rgb(230, 230, 230);
+    width: 140px;
+    height: 140px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: small;
+    top: 0px;
+    animation: meme-template;
+    animation-duration: 1s;
+}
+
+@keyframes meme-template {
+        from{
+            top : -200px
+        }    
+        to{
+            top : 0px
+        }
+}
+
+.meme-card{
+    display: flex;
+    overflow-y: hidden;
+    width: 160px;
+    height: 180px;
+    border-radius: 6px;
+    padding-top: 5px;
+    box-shadow: 0 0 3px 1px rgba(128, 128, 128, 0.651);
+    
+}
+.meme-card-holder{
+    display: inline-block;
+    padding: 5px;
+}
+.meme-name{
+    color: rgb(230, 230, 230);
+    font-size: x-small;
+    padding-left: 5px;
+    
+   
+    
+}
+.meme-name-holder{
+    display: flex;
+    line-height: 12px;
+    height: 20px;
+    align-items: center;
+    
+}
+
+/* ====== for tablets ============= */
+
+@media screen and (min-width:620px) and  (max-width:1000px){
+    /* *{
+        background-color: red;
+    } */
+
+    .meme-card{
+        width: 300px;
+        height: 300px;
+    }
+
+    .meme-name{
+        color: rgb(230, 230, 230);
+        font-size: larger;
+        padding-left: 5px;
+        
+       
+        
+    }
+    .meme-name-holder{
+        display: flex;
+        line-height: 20px;
+        height: 50px;
+        align-items: center;
+        
+    }
+    .meme-template{
+        position: relative;
+        color: rgb(230, 230, 230);
+        width: 280px;
+        height: 240px;
+        padding: 5px;
+        border-radius: 10px;
+        font-size: small;
+        top: 0px;
+        animation: meme-template;
+        animation-duration: 1s;
+    }
+    
+}
+
+@media screen and (min-width:1000px){
+    .meme-card{
+        width: 100%;
+        height: 500px;
+    }
+    .meme-{
+       
+        padding: 5px;
+        width: 500px;
+    }
+    .meme-card-holder{
+        width: 500px;
+        
+    }
+    .meme-template{
+        position: relative;
+        color: rgb(230, 230, 230);
+        width: 390px;
+        height: 390px;
+        padding: 5px;
+        border-radius: 10px;
+        font-size: small;
+        top: 0px;
+        animation: meme-template;
+        animation-duration: 1s;
+    }
+
+    .meme-name{
+        color: rgb(230, 230, 230);
+        font-size: x-large;
+        padding-left: 5px;
+        
+       
+        
+    }
+    .meme-name-holder{
+        display: flex;
+        line-height: 30px;
+        height: 100px;
+        align-items: center;
+        
+    }
+    
+    
+
+}
